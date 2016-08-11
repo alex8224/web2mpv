@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "web2mpv",
+    "version": "0.2",
+    "description": "使用mpv播放当前网站的视频节目",
+    "browser_action": {
+        "default_icon": "icon128.png"
+    },
+    "icons": { 
+		"16": "icon16.png" ,
+		"48": "icon48.png" ,
+		"128": "icon128.png" 
+},
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions":[
+        "tabs",
+        "*://*/*"
+    ]
+}
