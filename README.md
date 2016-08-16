@@ -16,3 +16,8 @@ https://github.com/alex8224/web2mpv_settings
 
 https://github.com/nareix/mama-hd
 抄了　**flashBlocker.js**
+
+更新
+=====
+
+1. 右键视频链接直接播放功能
